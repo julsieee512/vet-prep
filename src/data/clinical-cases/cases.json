@@ -1,0 +1,112 @@
+[
+  {
+    "id": "case_001",
+    "title": "The Vomiting Dog",
+    "species": "Canine",
+    "subject": "Gastroenterology",
+    "difficulty": "intermediate",
+    "signalment": "5-year-old male intact Labrador Retriever, 35 kg",
+    "presenting_complaint": "Vomiting 8x in the past 24 hours, lethargy, not eating",
+    "history": "Outdoor access. Owner reports the dog 'got into the garbage' yesterday evening. No previous GI issues. Up to date on vaccines. On no medications.",
+    "steps": [
+      {
+        "id": 1,
+        "prompt": "What is your initial approach? Choose the most appropriate first step.",
+        "options": [
+          "Immediately administer antiemetics and send home",
+          "Perform a physical examination",
+          "Order abdominal radiographs immediately",
+          "Administer IV fluids without examination"
+        ],
+        "correct": 1,
+        "explanation": "A thorough physical examination always comes first. It guides diagnostics and differentiates mild gastroenteritis from a surgical emergency (e.g., GDV, foreign body obstruction). Never skip the PE."
+      },
+      {
+        "id": 2,
+        "prompt": "Physical exam findings: T 39.8°C (normal 37.5–39.2°C), HR 120 bpm, RR 28/min, MM pale-pink, CRT 2s, BCS 5/9. Abdomen: tense on palpation, mild cranial abdominal pain. No abdominal distension. What do you do next?",
+        "options": [
+          "Diagnose dietary indiscretion and send home with metronidazole",
+          "Run CBC, chemistry panel, and abdominal radiographs",
+          "Perform emergency exploratory laparotomy",
+          "Administer NSAIDs for pain"
+        ],
+        "correct": 1,
+        "explanation": "Abdominal pain + tachycardia + fever warrants diagnostics to rule out pancreatitis, obstruction, or perforation. NSAIDs are contraindicated in vomiting patients (GI ulceration risk). Surgery is premature without diagnostics."
+      },
+      {
+        "id": 3,
+        "prompt": "Results: CBC: mild neutrophilia with left shift. Chemistry: ALT 180 U/L (ref <80), Lipase 4500 U/L (ref <200), normal BUN/Creatinine. Radiographs: no obstruction, no free gas, ground-glass opacity in cranial abdomen. What is the most likely diagnosis?",
+        "options": [
+          "Gastric dilatation-volvulus (GDV)",
+          "Acute pancreatitis",
+          "Intestinal foreign body obstruction",
+          "Parvoviral enteritis"
+        ],
+        "correct": 1,
+        "explanation": "Acute pancreatitis: classic signalment (dietary indiscretion in a Labrador), elevated lipase, cranial abdominal pain, and a ground-glass/mass effect in the cranial abdomen on radiographs. GDV would show gastric dilation; obstruction would show stacked loops; parvo would show parvovirus typical presentation and leukopenia."
+      },
+      {
+        "id": 4,
+        "prompt": "Diagnosis confirmed: acute pancreatitis. What is the cornerstone of treatment?",
+        "options": [
+          "Antibiotics and corticosteroids",
+          "Aggressive IV fluid therapy, analgesia, anti-emetics, and nutritional support",
+          "Surgical debridement of the pancreas",
+          "Pancreatic enzyme supplementation"
+        ],
+        "correct": 1,
+        "explanation": "Treatment is supportive: (1) IV crystalloids to correct dehydration and maintain perfusion, (2) analgesia (buprenorphine, methadone — avoid NSAIDs), (3) antiemetics (maropitant), (4) early enteral nutrition (do NOT 'rest' the pancreas — this is outdated). Antibiotics only if secondary infection suspected. Steroids are contraindicated. Surgery rarely needed."
+      }
+    ],
+    "summary": "Acute pancreatitis in dogs is commonly triggered by dietary indiscretion or high-fat meals, especially in predisposed breeds (Labrador, Miniature Schnauzer). Key diagnostics: spec cPL or lipase + imaging. Treatment: fluids, analgesia, antiemetics, early nutrition. Prognosis: good for mild-moderate cases; guarded for necrotizing pancreatitis."
+  },
+  {
+    "id": "case_002",
+    "title": "The Downer Cow",
+    "species": "Bovine",
+    "subject": "Production Animal",
+    "difficulty": "intermediate",
+    "signalment": "6-year-old Holstein-Friesian dairy cow, 600 kg, 2 days post-partum",
+    "presenting_complaint": "Found recumbent this morning, unable to rise, 3rd lactation",
+    "history": "Normal delivery 48h ago. Milk production was good. No previous episodes. Eating hay but not concentrates. Condition score 3/5 at calving.",
+    "steps": [
+      {
+        "id": 1,
+        "prompt": "What is the most important differential diagnosis to consider first in a post-partum recumbent cow?",
+        "options": [
+          "Traumatic reticuloperitonitis (hardware disease)",
+          "Hypocalcemia (milk fever / parturient paresis)",
+          "Hypomagnesemia (grass tetany)",
+          "Left displaced abomasum"
+        ],
+        "correct": 1,
+        "explanation": "Hypocalcemia (milk fever) is the #1 cause of recumbency in post-partum dairy cows, typically occurring within 48–72h of calving. Calcium is massively diverted into colostrum/milk. High-production cows and older cows (3rd+ lactation) are most at risk."
+      },
+      {
+        "id": 2,
+        "prompt": "Clinical findings: cow is sternal, head turned to flank (S-neck posture), muscle tremors, warm dry muzzle, hypothermia (37.0°C), HR 48 bpm (bradycardia), reduced rumen motility. What is the immediate treatment?",
+        "options": [
+          "Oral calcium bolus only",
+          "IV calcium borogluconate (400 mL of 23% solution) slowly over 20–30 minutes",
+          "IM magnesium sulfate",
+          "Dextrose IV"
+        ],
+        "correct": 1,
+        "explanation": "IV calcium borogluconate is the treatment of choice for stage 2–3 hypocalcemia. Administer SLOWLY (cardiac monitoring — calcium can cause arrhythmias). A second SC/oral dose is often given to extend the effect. Stage 1 (tetany) can be treated with oral calcium; Stage 3 (lateral recumbency, unresponsive) has poorer prognosis."
+      },
+      {
+        "id": 3,
+        "prompt": "The cow responds partially — she becomes brighter but still cannot rise after 2 IV calcium treatments over 12 hours. What should you consider?",
+        "options": [
+          "Repeat IV calcium a third time immediately",
+          "Consider hypophosphatemia, hypokalemia, or muscle damage (downer cow syndrome)",
+          "Diagnose as irreversible nerve damage and recommend culling",
+          "Start antibiotics for septicemia"
+        ],
+        "correct": 1,
+        "explanation": "A cow that doesn't rise after 2 calcium treatments likely has concurrent hypophosphatemia (supplement with IV sodium phosphate) or hypokalemia. Downer cow syndrome (prolonged recumbency → ischemic muscle/nerve damage) develops if the cow lies too long. Roll the cow, provide deep bedding, sling support, and give phosphorus supplementation. Do not give a 3rd IV calcium within hours — risk of hypercalcemia."
+      }
+    ],
+    "summary": "Milk fever (parturient hypocalcemia) is the most common metabolic disease of periparturient dairy cattle. Prevention: avoid over-conditioning, use DCAD (dietary cation-anion difference) diets pre-calving, consider vitamin D3. Treatment: IV Ca2+ slowly. Concurrent hypophosphatemia is common in 'downer' cows that don't respond."
+  }
+]

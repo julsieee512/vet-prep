@@ -1,0 +1,49 @@
+[
+  {
+    "id": "phy_001",
+    "question": "Which hormone is primarily responsible for water reabsorption in the collecting duct of the kidney?",
+    "options": ["Aldosterone", "ADH (Vasopressin)", "ANP", "PTH"],
+    "correct": 1,
+    "explanation": "ADH (Antidiuretic Hormone / Vasopressin) acts on V2 receptors in the collecting duct, inserting aquaporin-2 channels to increase water permeability. Aldosterone regulates Na+ reabsorption; ANP promotes natriuresis; PTH acts on phosphate and calcium."
+  },
+  {
+    "id": "phy_002",
+    "question": "The Frank-Starling law of the heart states that:",
+    "options": [
+      "Heart rate increases proportionally with preload",
+      "Stroke volume increases with increased ventricular end-diastolic volume",
+      "Cardiac output is independent of venous return",
+      "Afterload determines heart rate"
+    ],
+    "correct": 1,
+    "explanation": "The Frank-Starling law describes the intrinsic ability of the heart to adapt to changing loads: as end-diastolic volume (preload) increases, myocardial stretch increases, leading to a stronger contraction and greater stroke volume — within physiological limits."
+  },
+  {
+    "id": "phy_003",
+    "question": "Which segment of the nephron is the primary site for active reabsorption of glucose?",
+    "options": ["Proximal convoluted tubule", "Loop of Henle (descending)", "Distal convoluted tubule", "Collecting duct"],
+    "correct": 0,
+    "explanation": "Approximately 100% of filtered glucose is normally reabsorbed in the proximal convoluted tubule via SGLT2 (sodium-glucose cotransporter 2) on the apical membrane. SGLT1 handles a smaller portion. Glycosuria occurs when plasma glucose exceeds the renal threshold (~10 mmol/L in dogs)."
+  },
+  {
+    "id": "phy_004",
+    "question": "A cow is in early lactation. Which metabolic pathway is most upregulated to meet the energy demands of milk production?",
+    "options": ["Glycolysis", "Gluconeogenesis", "Fatty acid synthesis", "Pentose phosphate pathway"],
+    "correct": 1,
+    "explanation": "During early lactation, cows are often in negative energy balance (NEB). Gluconeogenesis is massively upregulated in the liver, primarily using propionate (from rumen fermentation), lactate, and glucogenic amino acids to supply glucose for the mammary gland."
+  },
+  {
+    "id": "phy_005",
+    "question": "The resting membrane potential of a typical mammalian neuron is approximately:",
+    "options": ["-90 mV", "-70 mV", "-55 mV", "+40 mV"],
+    "correct": 1,
+    "explanation": "The resting membrane potential is approximately -70 mV, maintained primarily by the Na+/K+-ATPase pump and the differential permeability to K+. -90 mV is closer to the K+ equilibrium potential; -55 mV is approximately the threshold for action potential generation; +40 mV is the peak of the action potential."
+  },
+  {
+    "id": "phy_006",
+    "question": "Which buffer system provides the most immediate buffering in blood?",
+    "options": ["Phosphate buffer", "Protein buffer", "Bicarbonate-carbonic acid system", "Hemoglobin buffer"],
+    "correct": 2,
+    "explanation": "The bicarbonate-carbonic acid system (HCO3-/H2CO3) is the primary extracellular buffer because: (1) CO2 is rapidly exhaled by the lungs providing a 'open' system, and (2) HCO3- is regulated by the kidneys. Despite hemoglobin being quantitatively important intracellularly, bicarbonate is the dominant immediate extracellular buffer."
+  }
+]

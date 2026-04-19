@@ -1,0 +1,71 @@
+.layout { display: flex; gap: 24px; }
+
+.sidebar {
+  width: 180px;
+  flex-shrink: 0;
+}
+
+.sidebarTitle {
+  font-size: 0.75rem;
+  text-transform: uppercase;
+  letter-spacing: 1px;
+  color: #999;
+  margin: 0 0 10px;
+}
+
+.subjectBtn {
+  display: block;
+  width: 100%;
+  padding: 9px 12px;
+  background: none;
+  border: none;
+  border-radius: 8px;
+  text-align: left;
+  cursor: pointer;
+  font-size: 0.88rem;
+  color: #555;
+  text-transform: capitalize;
+  transition: background 0.12s, color 0.12s;
+  margin-bottom: 2px;
+}
+
+.subjectBtn:hover { background: #e8eef4; color: #1a2e4a; }
+.active { background: #1a2e4a !important; color: #7ec8e3 !important; font-weight: 600; }
+
+.noteArea { flex: 1; min-width: 0; }
+
+.loading { color: #aaa; }
+
+.empty {
+  text-align: center;
+  padding: 60px 20px;
+  background: #fff;
+  border-radius: 14px;
+  color: #888;
+}
+
+.empty h2 { color: #1a2e4a; margin-bottom: 10px; }
+
+.markdown {
+  background: #fff;
+  border-radius: 14px;
+  padding: 32px;
+  box-shadow: 0 1px 4px rgba(0,0,0,0.08);
+  line-height: 1.7;
+  color: #333;
+}
+
+.markdown h1 { font-size: 1.6rem; color: #1a2e4a; border-bottom: 2px solid #e8eef4; padding-bottom: 8px; }
+.markdown h2 { font-size: 1.2rem; color: #1a2e4a; margin-top: 28px; }
+.markdown h3 { font-size: 1rem; color: #2d4a6e; }
+.markdown table { width: 100%; border-collapse: collapse; margin: 16px 0; font-size: 0.9rem; }
+.markdown th { background: #1a2e4a; color: #fff; padding: 8px 12px; text-align: left; }
+.markdown td { padding: 8px 12px; border-bottom: 1px solid #e8eef4; }
+.markdown tr:hover td { background: #f8fafc; }
+.markdown code { background: #f0f4f8; padding: 2px 6px; border-radius: 4px; font-size: 0.88em; }
+.markdown pre { background: #1a2e4a; color: #a8d8ea; padding: 16px; border-radius: 10px; overflow-x: auto; }
+.markdown pre code { background: none; padding: 0; color: inherit; }
+.markdown strong { color: #1a2e4a; }
+.markdown ul, .markdown ol { padding-left: 20px; }
+.markdown li { margin-bottom: 4px; }
+.markdown blockquote { border-left: 4px solid #7ec8e3; padding-left: 16px; color: #666; margin: 16px 0; }
