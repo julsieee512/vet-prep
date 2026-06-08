@@ -51,6 +51,17 @@
   box-shadow: 0 1px 4px rgba(0,0,0,0.08);
 }
 
+.questionImage {
+  display: block;
+  max-width: 100%;
+  max-height: 280px;
+  margin: 0 auto 20px;
+  background: #fafcff;
+  border: 1px solid #e8eef4;
+  border-radius: 8px;
+  padding: 8px;
+}
+
 .question { font-size: 1.1rem; color: #1a2e4a; margin: 0 0 24px; line-height: 1.6; }
 
 .options { display: flex; flex-direction: column; gap: 10px; }

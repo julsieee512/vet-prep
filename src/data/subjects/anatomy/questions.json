@@ -1,0 +1,230 @@
+[
+  {
+    "id": "ana_card_001",
+    "question": "Which valve sits between the right atrium and right ventricle?",
+    "options": [
+      "Mitral (bicuspid) valve",
+      "Tricuspid valve",
+      "Aortic valve",
+      "Pulmonic valve"
+    ],
+    "correct": 1,
+    "explanation": "The tricuspid valve is the right-sided AV valve (RA → RV). The mitral/bicuspid valve is the left-sided AV valve (LA → LV). Mnemonic: TRI before BI (right before left, alphabetically)."
+  },
+  {
+    "id": "ana_card_002",
+    "question": "Where on the chest wall is the mitral valve best auscultated in a dog?",
+    "options": [
+      "Right 4th intercostal space, mid-thorax",
+      "Left 3rd intercostal space, low",
+      "Left 4th intercostal space, mid-high",
+      "Left 5th intercostal space, at the apex"
+    ],
+    "correct": 3,
+    "explanation": "Mitral valve = left 5th ICS at the apex (the 'M' in PAM-T). Pulmonic = left 3rd low; aortic = left 4th mid-high; tricuspid = right 4th."
+  },
+  {
+    "id": "ana_card_003",
+    "question": "A 4-month-old female Pomeranian is presented for a routine vaccination. On auscultation you hear a continuous, machinery-like murmur loudest at the left heart base. What is the most likely diagnosis?",
+    "options": [
+      "Pulmonic stenosis",
+      "Ventricular septal defect (VSD)",
+      "Patent ductus arteriosus (PDA)",
+      "Mitral valve dysplasia"
+    ],
+    "correct": 2,
+    "explanation": "Classic PDA: continuous 'machinery' murmur (aortic pressure > pulmonary pressure throughout the cycle → constant left-to-right shunt), left heart base location, predisposed breed/sex (female small breeds — Pomeranian, Maltese, Sheltie). It's the most common congenital cardiac defect in dogs and curable by surgical ligation or coil occlusion if caught early."
+  },
+  {
+    "id": "ana_card_004",
+    "question": "A 6-week-old German Shepherd puppy is brought in for regurgitation that started when the owner introduced solid food. Thoracic radiographs show megaesophagus cranial to the heart base only. What is the most likely diagnosis?",
+    "options": [
+      "Idiopathic megaesophagus",
+      "Persistent right aortic arch (PRAA)",
+      "Myasthenia gravis",
+      "Esophageal foreign body"
+    ],
+    "correct": 1,
+    "explanation": "PRAA is a vascular ring anomaly: the right 4th aortic arch persists instead of the left, trapping the esophagus inside a ring formed by aorta (right), pulmonary artery (left), and ligamentum arteriosum (left). Solid food can't pass → regurgitation at weaning. Megaesophagus is focal (cranial to the heart base) because the obstruction is at the heart base, not generalized. German Shepherds are over-represented. Treatment is surgical: cut the ligamentum arteriosum."
+  },
+  {
+    "id": "ana_card_005",
+    "question": "Which sequence correctly lists the heart wall layers from INSIDE the chamber to OUTSIDE the pericardial sac?",
+    "options": [
+      "Epicardium → myocardium → endocardium → parietal pericardium → fibrous pericardium",
+      "Endocardium → myocardium → epicardium → parietal pericardium → fibrous pericardium",
+      "Myocardium → endocardium → epicardium → parietal pericardium → fibrous pericardium",
+      "Endocardium → epicardium → myocardium → fibrous pericardium → parietal pericardium"
+    ],
+    "correct": 1,
+    "explanation": "From the lumen outward: endocardium (lines the chamber) → myocardium (contractile muscle) → epicardium = visceral pericardium → pericardial space (small amount of serous fluid) → parietal pericardium → fibrous pericardium (tough outer sac)."
+  },
+  {
+    "id": "ana_card_006",
+    "question": "What is the correct sequence of the cardiac conduction system?",
+    "options": [
+      "AV node → SA node → Bundle of His → Purkinje fibers → bundle branches",
+      "SA node → Bundle of His → AV node → bundle branches → Purkinje fibers",
+      "SA node → AV node → Bundle of His → bundle branches → Purkinje fibers",
+      "SA node → AV node → bundle branches → Bundle of His → Purkinje fibers"
+    ],
+    "correct": 2,
+    "explanation": "SA node (in right atrium near cranial vena cava) → AV node → Bundle of His → right & left bundle branches → Purkinje fibers → ventricular myocardium. Same pathway in all domestic mammals — only intrinsic rates differ."
+  },
+  {
+    "id": "ana_card_007",
+    "question": "What is the functional purpose of the AV nodal delay?",
+    "options": [
+      "It prevents the SA node from firing too fast",
+      "It allows the atria to finish contracting and fill the ventricles before ventricular systole",
+      "It synchronizes left and right ventricular contraction",
+      "It generates the QRS complex on the ECG"
+    ],
+    "correct": 1,
+    "explanation": "The ~0.1 s pause at the AV node delays the impulse just long enough for the atria to fully empty their contents into the ventricles before ventricular depolarization. Without it, atria and ventricles would contract simultaneously, losing the atrial 'kick' contribution to preload."
+  },
+  {
+    "id": "ana_card_008",
+    "question": "What is the function of the chordae tendineae?",
+    "options": [
+      "They open the AV valves during diastole",
+      "They generate the heart's electrical impulse",
+      "They tether the AV valve cusps to the papillary muscles, preventing valve prolapse during systole",
+      "They close the semilunar valves during diastole"
+    ],
+    "correct": 2,
+    "explanation": "Chordae tendineae are tendon-like cords running from the free edges of the AV valve cusps to papillary muscles in the ventricular wall. During systole, papillary muscle contraction tightens the chordae so the AV valve cusps don't evert back into the atrium. Chordae rupture → flail leaflet → severe mitral regurgitation."
+  },
+  {
+    "id": "ana_card_009",
+    "question": "Where on the chest wall is the cardiac apex beat best palpated in a dog?",
+    "options": [
+      "Right 4th intercostal space, mid-thorax",
+      "Left 3rd intercostal space, dorsally",
+      "Left 5th intercostal space, mid-thorax (over the costochondral junction region)",
+      "Right 5th intercostal space, ventrally"
+    ],
+    "correct": 2,
+    "explanation": "The cardiac apex points cranioventrally and to the LEFT, contacting the chest wall at the left 5th ICS, mid-thorax. This is where the apex beat is palpated and where the mitral valve is auscultated."
+  },
+  {
+    "id": "ana_card_010",
+    "question": "Why is the left ventricular wall normally about three times thicker than the right ventricular wall?",
+    "options": [
+      "It contains specialized conducting tissue not found in the RV",
+      "It pumps against systemic vascular resistance (~120/80 mmHg), while the RV pumps against the low-resistance pulmonary circuit (~25/10 mmHg)",
+      "It is genetically programmed to be larger regardless of workload",
+      "It receives more coronary blood flow than the RV"
+    ],
+    "correct": 1,
+    "explanation": "Wall thickness reflects pressure work. The LV pushes blood through the entire systemic circulation against ~120 mmHg → it develops a thick, concentric, muscular wall. The RV pushes against the much lower pulmonary pressure (~25 mmHg) → stays thin and crescent-shaped. This is why the QRS vector in lead II is dominated by LV depolarization."
+  },
+  {
+    "id": "ana_card_011",
+    "question": "In fetal circulation, the ductus venosus shunts blood from where to where?",
+    "options": [
+      "Right atrium directly to left atrium",
+      "Pulmonary artery to aorta",
+      "Umbilical vein to caudal vena cava (bypassing the liver)",
+      "Umbilical artery to aorta"
+    ],
+    "correct": 2,
+    "explanation": "Ductus venosus: umbilical vein → caudal vena cava, bypassing the fetal liver. Foramen ovale: RA → LA (bypasses pulmonary circulation). Ductus arteriosus: pulmonary artery → aorta (bypasses non-functional fetal lungs)."
+  },
+  {
+    "id": "ana_card_012",
+    "question": "The paraconal interventricular branch arises from which coronary artery?",
+    "options": [
+      "Right coronary artery",
+      "Left coronary artery",
+      "Brachiocephalic trunk",
+      "Subclavian artery"
+    ],
+    "correct": 1,
+    "explanation": "Left coronary artery gives rise to the circumflex branch (around the left AV groove) and the paraconal interventricular branch (down the cranial interventricular groove). The right coronary artery gives off the subsinuosal (right) interventricular branch."
+  },
+  {
+    "id": "ana_card_013",
+    "question": "Which event produces the second heart sound (S2)?",
+    "options": [
+      "Opening of the AV valves",
+      "Closure of the AV valves (mitral and tricuspid)",
+      "Closure of the semilunar valves (aortic and pulmonic)",
+      "Opening of the semilunar valves"
+    ],
+    "correct": 2,
+    "explanation": "S1 ('lub') = AV valve closure at the start of ventricular systole. S2 ('dub') = semilunar valve (aortic + pulmonic) closure at the end of systole. Healthy valve opening is silent — only the snap of closure generates audible sound."
+  },
+  {
+    "id": "ana_card_014",
+    "question": "Why are valves auscultated DOWNSTREAM of their anatomical location (e.g., the aortic valve at the base of the aorta but heard at left 4th ICS)?",
+    "options": [
+      "Sound radiates upstream against blood flow",
+      "Sound radiates in the direction of blood flow with the moving blood column",
+      "The chest wall blocks sound from the actual valve site",
+      "It's an arbitrary clinical convention"
+    ],
+    "correct": 1,
+    "explanation": "Heart sounds are pressure waves carried in the column of flowing blood. They radiate downstream — in the direction the blood the valve just contained was moving. So the aortic sound is loudest where the ascending aorta projects, not directly over the aortic root."
+  },
+  {
+    "id": "ana_card_015",
+    "question": "Why does a myocardial infarction in dogs and cats result in permanent scar tissue rather than regenerated muscle?",
+    "options": [
+      "Cardiac myocytes are post-mitotic and cannot divide to replace lost tissue",
+      "Coronary arteries cannot reperfuse infarcted tissue",
+      "Inflammatory cells actively destroy regenerating myocardium",
+      "Cardiac stem cells are absent in domestic species"
+    ],
+    "correct": 0,
+    "explanation": "Cardiac myocytes are terminally differentiated (post-mitotic). When myocardium dies, it is replaced by fibrous collagen scar instead of new muscle. Scar tissue doesn't contract and doesn't conduct, so the heart loses both pumping function and conduction continuity at the infarct site — this is why ischemic heart disease is irreversible and progressive."
+  },
+  {
+    "id": "ana_card_016",
+    "question": "Where is the SA node located?",
+    "options": [
+      "Interventricular septum, near the apex",
+      "Wall of the left atrium, near the pulmonary veins",
+      "Wall of the right atrium, near the entry of the cranial vena cava",
+      "Base of the aortic root"
+    ],
+    "correct": 2,
+    "explanation": "The SA node sits in the wall of the right atrium near the junction with the cranial vena cava. It is the dominant pacemaker (intrinsic rate ~70 bpm in the dog, ~120 bpm in the cat) and sets the heart rhythm in health."
+  },
+  {
+    "id": "ana_card_017",
+    "question": "The ligamentum arteriosum is the post-natal remnant of which fetal structure?",
+    "options": [
+      "Foramen ovale",
+      "Ductus venosus",
+      "Umbilical artery",
+      "Ductus arteriosus"
+    ],
+    "correct": 3,
+    "explanation": "After birth, the ductus arteriosus (which shunted blood from pulmonary artery → aorta) closes functionally within hours and anatomically over days–weeks, leaving a fibrous cord = the ligamentum arteriosum. Failure of closure = PDA. The left-sided ligamentum is also one wall of the PRAA vascular ring."
+  },
+  {
+    "id": "ana_card_018",
+    "question": "Why is the tricuspid valve auscultated on the RIGHT side of the thorax while the mitral, aortic, and pulmonic valves are auscultated on the LEFT?",
+    "options": [
+      "The tricuspid valve is more cranial than the other three",
+      "The heart's apex points left, so the right atrium and right ventricle (containing the tricuspid valve) face the right chest wall",
+      "Sound from the tricuspid valve is louder than the other valves",
+      "Tricuspid auscultation requires palpating the carotid pulse, which is on the right"
+    ],
+    "correct": 1,
+    "explanation": "The heart sits in the thoracic cavity tilted with the apex pointing cranioventrally and to the LEFT. This rotation puts the LV/mitral region close to the left chest wall (where P, A, and M are heard) and exposes the right atrium and RV (with the tricuspid valve) to the RIGHT chest wall. Hence PAM is left-sided; T is the lone right-sided point."
+  },
+  {
+    "id": "ana_card_019",
+    "question": "Which species has a SINGLE brachiocephalic trunk arising from the aortic arch (with the left subclavian branching off the brachiocephalic rather than directly off the arch)?",
+    "options": [
+      "Horse",
+      "Dog",
+      "Cat",
+      "Cow"
+    ],
+    "correct": 3,
+    "explanation": "Cattle (and pigs, small ruminants) have a single brachiocephalic trunk off the aortic arch — the left subclavian arises from the brachiocephalic. Horse, dog, and cat have TWO branches off the arch: brachiocephalic trunk + left subclavian. This is a classic NAVLE species-comparison detail."
+  }
+]

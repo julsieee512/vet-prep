@@ -104,6 +104,13 @@ export default function Quiz() {
       </div>
 
       <div className={styles.card}>
+        {q.image && (
+          <img
+            className={styles.questionImage}
+            src={`${import.meta.env.BASE_URL}${q.image.replace(/^\//, '')}`}
+            alt="Question image"
+          />
+        )}
         <p className={styles.question}>{q.question}</p>
         <div className={styles.options}>
           {q.options.map((opt, i) => {

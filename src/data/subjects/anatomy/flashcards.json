@@ -1,0 +1,137 @@
+[
+  {
+    "id": "ana_card_001",
+    "front": "Trace blood flow through the heart starting from systemic veins.",
+    "back": "Vena cavae → right atrium → tricuspid valve → right ventricle → pulmonic valve → pulmonary artery → lungs → pulmonary veins → left atrium → mitral valve → left ventricle → aortic valve → aorta → body."
+  },
+  {
+    "id": "ana_card_002",
+    "front": "Name the AV valves and identify which side each is on.",
+    "back": "Tricuspid = right side (between RA and RV). Mitral (bicuspid) = left side (between LA and LV). Mnemonic: TRI before BI (alphabetical = right before left)."
+  },
+  {
+    "id": "ana_card_003",
+    "front": "Name the semilunar valves.",
+    "back": "Pulmonic (between RV and pulmonary artery) and aortic (between LV and aorta). Both have three half-moon-shaped cusps and snap shut to make S2."
+  },
+  {
+    "id": "ana_card_004",
+    "front": "What do chordae tendineae do and what do they attach to?",
+    "back": "They tether the free edges of the AV valve cusps to papillary muscles in the ventricular wall, preventing the valves from everting (prolapsing back into the atrium) during ventricular systole. Rupture → mitral regurgitation."
+  },
+  {
+    "id": "ana_card_005",
+    "front": "List the layers of the heart wall from inside to outside, including the pericardial layers.",
+    "back": "Endocardium → myocardium → epicardium (= visceral pericardium) → pericardial space (small amount of serous fluid) → parietal pericardium → fibrous pericardium."
+  },
+  {
+    "id": "ana_card_006",
+    "front": "Trace the cardiac conduction pathway from start to finish.",
+    "back": "SA node (right atrium, near cranial vena cava) → internodal tracts → AV node → Bundle of His → right and left bundle branches → Purkinje fibers → ventricular myocardium."
+  },
+  {
+    "id": "ana_card_007",
+    "front": "Where is the SA node located, and what is its intrinsic firing rate in a dog and a cat?",
+    "back": "SA node sits in the wall of the right atrium near the entry of the cranial vena cava. Intrinsic rate: ~70 bpm in dog, ~120 bpm in cat at rest."
+  },
+  {
+    "id": "ana_card_008",
+    "front": "Why is there a built-in delay at the AV node?",
+    "back": "The ~0.1 s delay lets the atria finish contracting and fully fill the ventricles before ventricular depolarization begins. Without it, atria and ventricles would contract simultaneously and lose the atrial 'kick.'"
+  },
+  {
+    "id": "ana_card_009",
+    "front": "Which branches arise from the left coronary artery?",
+    "back": "Circumflex branch (wraps around the left AV groove) and the paraconal interventricular branch (runs down the cranial interventricular groove on the LEFT side of the heart). Together they supply most of the left ventricle."
+  },
+  {
+    "id": "ana_card_010",
+    "front": "What branch arises from the right coronary artery in dogs?",
+    "back": "The subsinuosal (right) interventricular branch — runs down the caudal interventricular groove on the right side. Supplies the right ventricle and part of the interventricular septum."
+  },
+  {
+    "id": "ana_card_011",
+    "front": "Name the three fetal cardiovascular shunts and what each bypasses.",
+    "back": "1) Ductus venosus — umbilical vein → caudal vena cava (bypasses liver). 2) Foramen ovale — RA → LA (bypasses pulmonary circuit). 3) Ductus arteriosus — pulmonary artery → aorta (bypasses lungs)."
+  },
+  {
+    "id": "ana_card_012",
+    "front": "What does the ductus arteriosus become after closure, and what congenital defect results from failure to close?",
+    "back": "After closure it becomes the ligamentum arteriosum (a fibrous cord between pulmonary artery and aorta). Failure to close = patent ductus arteriosus (PDA), the most common congenital cardiac defect in dogs."
+  },
+  {
+    "id": "ana_card_013",
+    "front": "Classic clinical presentation of PDA?",
+    "back": "Continuous 'machinery' murmur heard loudest at the left heart base, left-sided cardiomegaly, often a hyperkinetic/bounding pulse. Predisposed: female, small breeds (Maltese, Pomeranian, Sheltie, Chihuahua). Treatment: surgical ligation or transcatheter coil/Amplatz device — curative if closed early."
+  },
+  {
+    "id": "ana_card_014",
+    "front": "What is persistent right aortic arch (PRAA) and how does it present clinically?",
+    "back": "Vascular ring anomaly — the right 4th aortic arch persists as the definitive aorta (instead of the left). The esophagus gets trapped between the aorta (right), pulmonary artery (left), and ligamentum arteriosum (left), forming a constricting ring. Classic sign: regurgitation of solid food at weaning. German Shepherds predisposed. Rads: megaesophagus cranial to the heart base."
+  },
+  {
+    "id": "ana_card_015",
+    "front": "PAM-T auscultation mnemonic — list each valve, side, and intercostal space.",
+    "back": "Pulmonic — LEFT 3rd ICS, low. Aortic — LEFT 4th ICS, mid-high. Mitral — LEFT 5th ICS, apex. Tricuspid — RIGHT 4th ICS, mid. (PAM = left side from cranial to caudal/dorsal to ventral; T = the only right-sided point.)"
+  },
+  {
+    "id": "ana_card_016",
+    "front": "Where is the cardiac apex beat felt on physical exam, and which valve auscultates there?",
+    "back": "Left 5th intercostal space at mid-thorax (costochondral junction region). This is the mitral valve auscultation point — apex beat region."
+  },
+  {
+    "id": "ana_card_017",
+    "front": "Why is the left ventricular wall ~3× thicker than the right ventricular wall?",
+    "back": "LV pumps against systemic pressure (~120/80 mmHg); RV pumps against the low-resistance pulmonary circuit (~25/10 mmHg). Pressure work drives hypertrophy — LV develops a thick concentric wall while RV stays thin and crescent-shaped."
+  },
+  {
+    "id": "ana_card_018",
+    "front": "Why does a myocardial infarction leave a permanent scar instead of regenerating?",
+    "back": "Cardiac myocytes are post-mitotic (terminally differentiated) — they cannot divide to replace lost tissue. Dead myocardium is replaced by fibrous (collagen) scar, which doesn't contract and doesn't conduct. This is why ischemic heart disease is progressive and irreversible."
+  },
+  {
+    "id": "ana_card_019",
+    "front": "Why is each valve auscultated downstream of its actual location?",
+    "back": "Heart sounds are pressure waves carried in flowing blood. The valve closes upstream but the sound radiates with the blood column moving away from it — so the closing 'snap' is loudest at the point where the blood the valve just contained is heading."
+  },
+  {
+    "id": "ana_card_020",
+    "front": "What produces S1 and S2 heart sounds?",
+    "back": "S1 ('lub') = closure of AV valves (mitral + tricuspid) at the start of ventricular systole. S2 ('dub') = closure of semilunar valves (aortic + pulmonic) at the end of ventricular systole."
+  },
+  {
+    "id": "ana_card_021",
+    "front": "Aortic arch branching pattern: how do horse/dog/cat differ from cow/pig?",
+    "back": "Horse, dog, cat: TWO branches off the arch — brachiocephalic trunk + left subclavian. Cow, pig (and small ruminants): SINGLE brachiocephalic trunk only — the left subclavian arises from the brachiocephalic instead of directly from the arch."
+  },
+  {
+    "id": "ana_card_022",
+    "front": "Which thoracic structure does the right recurrent laryngeal nerve loop around, and which does the left loop around? Why is this clinically important in horses?",
+    "back": "Right recurrent laryngeal loops around the right subclavian artery; left recurrent laryngeal loops around the aortic arch. The left has a much longer course (down into thorax, around arch, back up the neck) — predisposes horses to left-sided recurrent laryngeal neuropathy ('roaring' / laryngeal hemiplegia)."
+  },
+  {
+    "id": "ana_card_023",
+    "front": "What is the ligamentum arteriosum, and why does it matter in PRAA?",
+    "back": "It is the post-natal fibrous remnant of the ductus arteriosus, connecting the pulmonary artery to the aorta. In PRAA, the left-sided ligamentum arteriosum forms the LEFT side of the vascular ring that traps the esophagus — when surgeons correct PRAA, they cut the ligamentum to free the esophagus."
+  },
+  {
+    "id": "ana_card_024",
+    "front": "Why can the tricuspid valve only be auscultated from the RIGHT side of the chest?",
+    "back": "The heart sits in the thorax tilted with its apex pointing left and caudally — the left ventricle and mitral region dominate the left chest wall. The right atrium and right ventricle (with the tricuspid valve) face the right chest wall, so the tricuspid sound projects there."
+  },
+  {
+    "id": "ana_card_025",
+    "front": "Why does PDA produce a CONTINUOUS murmur (heard in both systole and diastole) rather than just a systolic one?",
+    "back": "Aortic pressure exceeds pulmonary artery pressure throughout the entire cardiac cycle (systole AND diastole). Blood therefore shunts left-to-right (aorta → PA) continuously through the open duct, producing a non-stop, 'machinery-like' turbulent flow murmur."
+  },
+  {
+    "id": "ana_card_026",
+    "front": "What is special about the cardiac anatomy of the equine heart relative to small animals (orientation for auscultation/ultrasound)?",
+    "back": "The horse heart is large, oriented with apex pointed cranioventrally and slightly leftward, lying mostly in the LEFT hemithorax behind the triceps mass. Auscultation requires pushing the left forelimb forward to access the left heart base/apex. Same chamber/valve arrangement as dog though — anatomy is conserved across mammals."
+  },
+  {
+    "id": "ana_card_027",
+    "front": "What anatomic feature distinguishes atrial myocardium from ventricular myocardium electrically?",
+    "back": "The atria and ventricles are separated by the fibrous cardiac skeleton (annulus fibrosus) — non-conducting connective tissue around the valve rings. The ONLY electrical bridge between them is the AV node/Bundle of His. This is why AV block isolates the ventricles from atrial impulses."
+  }
+]

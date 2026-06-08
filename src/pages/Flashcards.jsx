@@ -98,6 +98,13 @@ export default function Flashcards() {
         <div className={styles.cardInner}>
           <div className={styles.front}>
             <span className={styles.hint}>tap to reveal</span>
+            {card.image && (
+              <img
+                className={styles.cardImage}
+                src={`${import.meta.env.BASE_URL}${card.image.replace(/^\//, '')}`}
+                alt="Flashcard image"
+              />
+            )}
             <p className={styles.cardText}>{card.front}</p>
           </div>
           <div className={styles.back}>

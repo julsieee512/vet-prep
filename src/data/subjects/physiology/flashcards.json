@@ -1,0 +1,460 @@
+[
+  {
+    "id": "phy_card_001",
+    "image": "images/physiology/quiz/ecg-normal.png",
+    "front": "Identify this ECG pattern.",
+    "back": "Normal sinus rhythm — P wave precedes each QRS, narrow QRS, normal T wave, regular intervals."
+  },
+  {
+    "id": "phy_card_002",
+    "image": "images/physiology/quiz/ecg-hyperk-early.png",
+    "front": "Identify this ECG pattern and the approximate serum K⁺.",
+    "back": "Early hyperkalemia (K⁺ ~5.5–6.5 mEq/L). Tall, narrow, symmetric, sharply pointed (\"tented\") T wave. P wave still present, QRS still narrow. Earliest reliable ECG sign of hyperK."
+  },
+  {
+    "id": "phy_card_003",
+    "image": "images/physiology/quiz/ecg-hyperk-moderate.png",
+    "front": "Identify this ECG pattern and the approximate serum K⁺.",
+    "back": "Moderate hyperkalemia (K⁺ ~6.5–7.5 mEq/L). P waves lost (\"atrial standstill\") with slightly widened QRS. Atrial myocardium is more K⁺-sensitive than ventricular, so P waves disappear before QRS widens dramatically."
+  },
+  {
+    "id": "phy_card_004",
+    "image": "images/physiology/quiz/ecg-hyperk-severe.png",
+    "front": "Identify this ECG pattern and the approximate serum K⁺.",
+    "back": "Severe hyperkalemia (K⁺ >7.5 mEq/L). Wide, bizarre QRS merging into the T wave. Ventricular conduction is slowing. Sine wave and asystole follow if untreated."
+  },
+  {
+    "id": "phy_card_005",
+    "image": "images/physiology/quiz/ecg-lvh.png",
+    "front": "Identify this ECG pattern.",
+    "back": "Left ventricular hypertrophy / enlargement (LVH). Tall slender R wave (>3 mV in lead II in dog) with strain pattern (down-sloping ST + inverted T). LV dominates the mean QRS vector, so LVH amplifies the down-and-left vector that lead II looks along."
+  },
+  {
+    "id": "phy_card_006",
+    "image": "images/physiology/quiz/ecg-p-mitrale.png",
+    "front": "Identify this ECG pattern.",
+    "back": "P mitrale = left atrial enlargement. The P wave is two events fused (RA depolarization, then LA). When LA enlarges, the LA component lags and separates from the RA component → M-shaped (two-humped) P wave. Classic in MMVD."
+  },
+  {
+    "id": "phy_card_007",
+    "image": "images/physiology/quiz/ecg-p-pulmonale.png",
+    "front": "Identify this ECG pattern.",
+    "back": "P pulmonale = right atrial enlargement. RA depolarizes first, so RA enlargement bulks up the front of the P wave → tall (>2.5 mm), narrow, pointed P. The LA still finishes last and sets the endpoint, so duration stays normal."
+  },
+  {
+    "id": "phy_card_008",
+    "image": "images/physiology/quiz/ecg-afib.png",
+    "front": "Identify this ECG pattern.",
+    "back": "Atrial fibrillation. No organized P waves, wavy chaotic baseline, irregularly irregular QRS spacing. Multiple chaotic re-entry circuits in the atria; the AV node lets impulses through randomly."
+  },
+  {
+    "id": "phy_card_009",
+    "image": "images/physiology/quiz/ecg-atrial-flutter.png",
+    "front": "Identify this ECG pattern.",
+    "back": "Atrial flutter. Regular sawtooth flutter waves (~300/min) with regular QRS at a clean fraction of the atrial rate (2:1, 3:1, 4:1 AV conduction). Single organized re-entry loop in the atria (vs AFib's chaotic circuits)."
+  },
+  {
+    "id": "phy_card_010",
+    "image": "images/physiology/quiz/ecg-pericarditis.png",
+    "front": "Identify this ECG pattern.",
+    "back": "Acute pericarditis. Concave-up (\"saddle\") ST elevation + PR-segment depression. Inflammation of the pericardial layers creates a current of injury. Distinct from pericardial effusion."
+  },
+  {
+    "id": "phy_card_011",
+    "image": "images/physiology/quiz/ecg-pericardial-effusion.png",
+    "front": "Identify this ECG pattern.",
+    "back": "Pericardial effusion. Low-voltage QRS + electrical alternans (beat-to-beat amplitude variation, tall-short-tall-short). Fluid attenuates the signal; the heart swings in the fluid sac, alternately closer to/farther from the recording electrodes."
+  },
+  {
+    "id": "phy_card_012",
+    "image": "images/physiology/quiz/ecg-vpc.png",
+    "front": "Identify this ECG pattern.",
+    "back": "Ventricular premature complex (VPC / PVC). Early beat with wide, bizarre QRS and no preceding P wave, followed by a compensatory pause. Ectopic ventricular focus fires early; bypasses the fast His-Purkinje system and spreads slowly cell-to-cell."
+  },
+  {
+    "id": "phy_card_013",
+    "image": "images/physiology/quiz/ecg-vfib.png",
+    "front": "Identify this ECG pattern and the clinical state of the patient.",
+    "back": "Ventricular fibrillation — chaotic baseline, no organized QRS, no pulse. The patient is in cardiac arrest from the moment VF starts. Hundreds of tiny re-entry circuits fire out of sync → ventricles quiver instead of contracting → no cardiac output. Immediate CPR + defibrillation."
+  },
+  {
+    "id": "phy_card_014",
+    "front": "Frank-Starling law of the heart — in one sentence.",
+    "back": "Within physiologic limits, ↑ end-diastolic volume (preload) → ↑ myocardial stretch → ↑ stroke volume. The heart matches output to venous return. Curve shifts down/right in DCM (failing myocardium)."
+  },
+  {
+    "id": "phy_card_015",
+    "front": "Which current drives spontaneous Phase 4 depolarization in SA/AV nodal cells?",
+    "back": "The funny current (If) through HCN (hyperpolarization-activated cyclic nucleotide-gated) channels, plus a Ca²⁺ leak. The slope of Phase 4 sets heart rate: sympathetic steepens it, vagal flattens it."
+  },
+  {
+    "id": "phy_card_016",
+    "front": "Why does the AV node impose a built-in delay (~100 ms) before impulses reach the ventricles?",
+    "back": "AV nodal cells are pacemaker-type (slow-response): they use slow Ca²⁺-driven Phase 0 instead of fast Na⁺-driven Phase 0, so conduction is intrinsically slow. Functional purpose: lets the atria contract and complete ventricular filling (atrial kick) before ventricular contraction begins."
+  },
+  {
+    "id": "phy_card_017",
+    "front": "Why can't pacemaker cells use fast Na⁺ channels for Phase 0?",
+    "back": "Pacemaker cells have no stable resting potential — voltage drifts up during Phase 4. At that elevated voltage, fast Na⁺ channels stay inactivated. So pacemakers depend on slow Ca²⁺ channels for Phase 0 — slow upstroke = slow conduction."
+  },
+  {
+    "id": "phy_card_018",
+    "front": "What is the function of the Phase 2 plateau in ventricular myocytes?",
+    "back": "Ca²⁺ influx (L-type channels) balanced by K⁺ efflux holds the cell depolarized long enough for (1) Ca²⁺-induced Ca²⁺ release from the SR to drive a strong contraction, and (2) the entire systole to occur during refractoriness → cardiac muscle cannot tetanize."
+  },
+  {
+    "id": "phy_card_019",
+    "front": "Why is the cardiac refractory period so long?",
+    "back": "The Phase 2 plateau keeps Na⁺ channels inactivated for most of the contraction. The cell is electrically silent throughout systole, so a second stimulus cannot fire → the heart cannot tetanize. Essential, because a tetanized heart cannot fill or eject."
+  },
+  {
+    "id": "phy_card_020",
+    "front": "What does S1 represent? S2?",
+    "back": "S1 (\"lub\") = closure of the AV valves (mitral + tricuspid) at the start of systole. S2 (\"dub\") = closure of the semilunar valves (aortic + pulmonic) at the end of systole. The lub-dub brackets systole."
+  },
+  {
+    "id": "phy_card_021",
+    "front": "First-line emergency treatment for severe hyperkalemia with ECG changes?",
+    "back": "Calcium gluconate IV — cardioprotective (raises threshold potential, restores excitability gradient). Does NOT lower K⁺; buys time. Then insulin + dextrose (drives K⁺ into cells), then relieve obstruction / treat underlying cause."
+  },
+  {
+    "id": "phy_card_022",
+    "front": "Why is NT-proBNP useful in a dyspneic cat?",
+    "back": "Distinguishes cardiac (CHF) vs respiratory cause of dyspnea without restraint. Stressed dyspneic cats can decompensate during radiographs — a point-of-care NT-proBNP test guides whether to give furosemide before imaging. Elevated = cardiac; normal = respiratory."
+  },
+  {
+    "id": "phy_card_023",
+    "front": "Where are the arterial baroreceptors located, and which cranial nerves carry their afferents?",
+    "back": "Carotid sinus (afferent via CN IX, glossopharyngeal) and aortic arch (afferent via CN X, vagus). They sense arterial wall stretch as a proxy for BP; afferents go to the medullary cardiovascular centers."
+  },
+  {
+    "id": "phy_card_024",
+    "front": "What triggers renin release from juxtaglomerular cells?",
+    "back": "(1) ↓ BP (afferent arteriole stretch), (2) ↓ Na⁺ delivery to the macula densa (sign of low GFR), (3) ↑ sympathetic tone (β1 on JG cells). All three converge on the same fluid-conservation response."
+  },
+  {
+    "id": "phy_card_025",
+    "front": "Four main effects of angiotensin II?",
+    "back": "(1) Vasoconstriction (efferent > afferent arteriole — preserves GFR), (2) aldosterone release (zona glomerulosa), (3) ADH release, (4) thirst (subfornical organ)."
+  },
+  {
+    "id": "phy_card_026",
+    "front": "What does aldosterone do at the collecting duct?",
+    "back": "↑ Na⁺ reabsorption (via ENaC) + ↑ K⁺ secretion (via ROMK) at principal cells. Net: volume retention with kaliuresis. Excess (Conn's) → hypertension + hypokalemia; deficiency (Addison's) → hyponatremia + hyperkalemia."
+  },
+  {
+    "id": "phy_card_027",
+    "front": "Why do blocked male cats develop hyperkalemia so quickly?",
+    "back": "Urethral obstruction blocks urinary K⁺ excretion → K⁺ accumulates. Concurrent post-renal azotemia + metabolic acidosis drive even more K⁺ out of cells (H⁺/K⁺ exchange). The combination is rapidly fatal without obstruction relief + Ca gluconate + insulin/dextrose."
+  },
+  {
+    "id": "phy_card_028",
+    "front": "Normal resting HR — adult dog?",
+    "back": "60–160 bpm. Large breed ~60–100; small/toy 100–140; puppy up to ~180. HR <60 = bradycardia (investigate for vagal tone, hyperK, drug effect, sick sinus, AV block)."
+  },
+  {
+    "id": "phy_card_029",
+    "front": "Normal resting HR — cat?",
+    "back": "140–220 bpm. Stress / clinic visits typically push to the upper end. HR <140 in a clinic setting is suspicious for true bradycardia."
+  },
+  {
+    "id": "phy_card_030",
+    "front": "Normal resting HR — adult horse?",
+    "back": "28–44 bpm. Conditioned athletes can be lower. ⚡ HR >60 with colic is a poor prognostic sign (severe pain, dehydration, endotoxemia, or surgical lesion)."
+  },
+  {
+    "id": "phy_card_031",
+    "front": "Cardiac output formula?",
+    "back": "CO = HR × SV (cardiac output = heart rate × stroke volume). Stroke volume itself depends on preload, afterload, and contractility."
+  },
+  {
+    "id": "phy_card_032",
+    "front": "Define preload and afterload.",
+    "back": "Preload = ventricular end-diastolic volume / wall stretch just before contraction (driven by venous return). Afterload = the pressure the ventricle must overcome to eject (for LV, essentially aortic pressure / systemic vascular resistance)."
+  },
+  {
+    "id": "phy_card_033",
+    "front": "Starling forces — name four mechanisms of edema.",
+    "back": "(1) ↑ capillary hydrostatic pressure (CHF, portal hypertension), (2) ↓ capillary oncotic pressure (PLN, PLE, liver failure — hypoalbuminemia), (3) ↑ vascular permeability (inflammation, sepsis, anaphylaxis, vasculitis), (4) lymphatic obstruction (neoplasia, post-surgical, filariasis)."
+  },
+  {
+    "id": "phy_card_034",
+    "front": "Why does a tall R wave in lead II specifically indicate LEFT ventricular enlargement (not right)?",
+    "back": "LV wall is ~3× thicker than RV (it pumps against systemic vs pulmonary pressure), so the mean QRS vector already points down-and-to-the-left along the lead II axis. LV enlargement amplifies that vector in the same direction → taller R in lead II. RV enlargement shifts the vector rightward (right axis deviation) → deep S waves in I/II, not tall R."
+  },
+  {
+    "id": "phy_card_035",
+    "front": "Drug target — enalapril / benazepril?",
+    "back": "Angiotensin-converting enzyme (ACE) — converts AT-I → AT-II in lung endothelium. ACEi blocks AT-II production → vasodilation + ↓ aldosterone. Used in CHF and proteinuric kidney disease. Can cause AKI in low-volume states by removing efferent constriction that preserves GFR."
+  },
+  {
+    "id": "phy_card_036",
+    "front": "Drug target — spironolactone?",
+    "back": "Aldosterone receptor antagonist at the collecting duct → ↓ Na⁺ reabsorption + K⁺ retention (potassium-sparing diuretic). Used adjunctively in CHF. Risk of hyperkalemia, especially if combined with ACEi."
+  },
+  {
+    "id": "phy_card_037",
+    "front": "Trigger and effects of ANP / BNP?",
+    "back": "Trigger: atrial wall stretch releases ANP; ventricular wall stretch releases BNP (volume / pressure overload). Effects: natriuresis, vasodilation, ↓ renin / aldosterone / ADH. All opposing RAAS — negative feedback for volume overload."
+  },
+  {
+    "id": "phy_card_038",
+    "front": "Mechanistically — why does P mitrale produce a two-humped (M-shaped) P wave?",
+    "back": "The P wave is two events fused: RA depolarization first, then LA a few ms later. When LA enlarges, the LA component takes longer (more muscle to depolarize, longer path), so it separates in time from the RA component → two distinct humps."
+  },
+  {
+    "id": "phy_card_039",
+    "front": "Mechanistically — why is P pulmonale tall but NOT wide?",
+    "back": "RA depolarizes first, before LA. RA enlargement adds amplitude to the front of the P wave, but the LA still finishes last and sets the endpoint — so total duration is unchanged. Net: taller and pointier, same width."
+  },
+  {
+    "id": "phy_card_040",
+    "front": "What is electrical alternans, and what does it indicate?",
+    "back": "Beat-to-beat alternation in QRS amplitude (tall-short-tall-short). Classic for pericardial effusion — the heart literally swings back and forth in the fluid sac, alternately closer to / farther from the recording electrodes."
+  },
+  {
+    "id": "phy_card_041",
+    "front": "Which ion drives Phase 0 in a ventricular myocyte? In a pacemaker cell?",
+    "back": "Ventricular myocyte: Na⁺ (fast, through voltage-gated fast Na⁺ channels — explosive upstroke from −90 mV). Pacemaker cell: Ca²⁺ (slow, through L-type Ca²⁺ channels — slow upstroke, slow conduction)."
+  },
+  {
+    "id": "phy_card_042",
+    "front": "Mechanism — why does hyperkalemia produce tented T waves AND slowed conduction?",
+    "back": "High extracellular K⁺ (1) accelerates K⁺ efflux → faster repolarization → tall, narrow, peaked T wave; (2) raises resting membrane potential closer to threshold → Na⁺ channels remain inactivated → slower, weaker depolarization. Atrial cells fail first (P waves disappear), then ventricles (QRS widens), then sine wave, then asystole."
+  },
+  {
+    "id": "phy_card_043",
+    "front": "What is the difference between atrial fibrillation and atrial flutter, mechanistically?",
+    "back": "AFib: multiple chaotic re-entry circuits firing simultaneously → no organized atrial activity → wavy chaotic baseline + irregularly irregular QRS. Flutter: a single organized re-entry loop firing very fast and steadily → regular sawtooth baseline + regular QRS at a clean AV-block ratio (2:1, 3:1, 4:1)."
+  },
+  {
+    "id": "phy_card_044",
+    "front": "What is a normal arterial blood pressure in a dog (systolic / diastolic, approximate)?",
+    "back": "Systolic ~120 mmHg, diastolic ~80 mmHg. RV/PA pressures are much lower (~25/10) because they pump into the low-resistance pulmonary circuit. CVP / right atrial pressure ~0–5 mmHg."
+  },
+  {
+    "id": "phy_card_045",
+    "front": "What is the mechanical consequence of ventricular fibrillation, and what is the only effective acute treatment?",
+    "back": "Mechanical: ventricles quiver instead of contracting → no cardiac output → no pulse → cardiac arrest. Treatment: immediate CPR (chest compressions to maintain coronary/cerebral perfusion) + electrical defibrillation (resets the chaotic electrical activity so an organized rhythm can resume)."
+  },
+  {
+    "id": "phy_card_046",
+    "front": "What is TPO (thyroid peroxidase) and what are its three roles in thyroid hormone synthesis?",
+    "back": "TPO is the apical-membrane enzyme of thyroid follicular cells. It (1) oxidizes iodide (I⁻ → I⁰) so it can be incorporated into tyrosine, (2) iodinates tyrosine residues on thyroglobulin (forming MIT and DIT), and (3) couples them: MIT + DIT → T3, DIT + DIT → T4. Methimazole inhibits TPO."
+  },
+  {
+    "id": "phy_card_047",
+    "front": "Compare methimazole and I-131 in feline hyperthyroidism — which is curative and why?",
+    "back": "Methimazole inhibits TPO → blocks new hormone synthesis, but the hyperplastic adenomatous tissue is untouched. Stop the drug, signs return — control, not cure. I-131 is concentrated by the hyperfunctional tissue via the Na/I symporter (NIS); beta particles destroy that tissue → curative."
+  },
+  {
+    "id": "phy_card_048",
+    "front": "Where is calcitonin produced and what stimulates its release?",
+    "back": "C cells (parafollicular cells) scattered between thyroid follicles. Embryologic origin: ultimobranchial body (neural crest). Released in response to hypercalcemia — the opposite of PTH."
+  },
+  {
+    "id": "phy_card_049",
+    "front": "How does calcitonin lower blood calcium at the cellular level?",
+    "back": "Inhibits osteoclasts directly — within minutes osteoclasts retract their ruffled border (the actively resorbing surface). ↓ bone resorption → ↓ blood Ca²⁺ and ↓ phosphate. Minor renal effect (↓ Ca reabsorption)."
+  },
+  {
+    "id": "phy_card_050",
+    "front": "Why is calcitonin considered clinically minor in adult mammals?",
+    "back": "Thyroidectomized animals don't develop hypercalcemia (PTH still handles Ca regulation). C-cell tumors producing massive calcitonin don't cause clinical hypocalcemia. PTH + calcitriol dominate. Calcitonin matters more in young growing animals, pregnancy/lactation, and fish."
+  },
+  {
+    "id": "phy_card_051",
+    "front": "Name three anatomic sources of somatostatin and the function in each.",
+    "back": "(1) Hypothalamus — inhibits GH (and TSH) release from anterior pituitary. (2) Pancreatic δ cells — paracrine inhibition of α and β cells (↓ glucagon, ↓ insulin). (3) GI δ cells — inhibits gastrin, secretin, CCK, motilin; ↓ gastric acid, ↓ motility. Unifying theme: 'stop secreting' wherever it's released."
+  },
+  {
+    "id": "phy_card_052",
+    "front": "A dog with Addison's disease has total Ca 13.5 mg/dL. What are the main mechanisms of the hypercalcemia?",
+    "back": "Multifactorial: (1) Hemoconcentration from aldosterone-deficient Na/water loss → ↑ Ca concentration; (2) ↓ GFR from hypovolemia → ↓ Ca excretion; (3) Loss of cortisol's normal Ca-lowering actions (cortisol antagonizes vitamin D in gut and promotes renal Ca excretion); (4) Increased Ca-protein complexing."
+  },
+  {
+    "id": "phy_card_053",
+    "front": "What classic electrolyte ratio raises suspicion for Addison's in a dog with azotemia, hyperK, and hyperCa?",
+    "back": "Na:K ratio <27 (often <20). Normal 27–40. Aldosterone deficiency → Na wasting + K retention → ratio collapses. The diagnostic flag that distinguishes Addison's from primary renal failure, both of which can produce hyperCa + azotemia."
+  },
+  {
+    "id": "phy_card_054",
+    "front": "From which embryologic structure are thyroid C cells derived?",
+    "back": "Ultimobranchial body (neural crest origin). In mammals these cells migrate into the thyroid during development. In birds, reptiles, and fish the ultimobranchial body remains a discrete separate gland."
+  },
+  {
+    "id": "phy_card_055",
+    "front": "How is salmon calcitonin used in cholecalciferol rodenticide toxicosis, and why is its effect limited?",
+    "back": "Salmon calcitonin inhibits osteoclasts to acutely lower Ca. Limited because (1) effect is transient — tachyphylaxis develops within days as osteoclasts downregulate calcitonin receptors, and (2) it doesn't address the underlying massive calcitriol load. Bisphosphonates (pamidronate) are usually preferred."
+  },
+  {
+    "id": "phy_card_056",
+    "front": "How does the autonomic nervous system differ from the somatic motor system in terms of neuron count?",
+    "back": "Somatic motor: ONE neuron from CNS directly to skeletal muscle (ACh on nicotinic at the NMJ). Autonomic: TWO neurons in series — a preganglionic neuron from CNS to a ganglion outside the CNS, where it synapses on a postganglionic neuron that reaches the target organ."
+  },
+  {
+    "id": "phy_card_057",
+    "front": "Where are parasympathetic ganglia located, and how does this shape pre- vs postganglionic length?",
+    "back": "Parasympathetic ganglia sit near (or within) the target organ. So the preganglionic neuron is LONG and the postganglionic is SHORT. The vagus nerve is the classic example — runs from brainstem all the way to gut wall before synapsing."
+  },
+  {
+    "id": "phy_card_058",
+    "front": "Where are sympathetic ganglia located, and how does this shape pre- vs postganglionic length?",
+    "back": "Sympathetic ganglia sit near the spinal cord — primarily in the paravertebral (sympathetic) chain. So the preganglionic neuron is SHORT and the postganglionic is LONG."
+  },
+  {
+    "id": "phy_card_059",
+    "front": "Which neurotransmitter and receptor type is used at every autonomic ganglion (sympathetic and parasympathetic)?",
+    "back": "Acetylcholine on nicotinic receptors. Same NT/receptor pair as at the NMJ. At target organs the picture diverges: parasympathetic postganglionic = ACh on muscarinic; sympathetic postganglionic = NE on α/β (except sweat glands)."
+  },
+  {
+    "id": "phy_card_060",
+    "front": "What is the NT-receptor pair at parasympathetic target organs, and what blocks it?",
+    "back": "ACh on muscarinic receptors (M1–M5). Atropine is the classic muscarinic antagonist — blocking it reverses parasympathetic tone (↑ HR, dry secretions, mydriasis, ↓ GI motility)."
+  },
+  {
+    "id": "phy_card_061",
+    "front": "What is the NT-receptor pair at most sympathetic target organs, and what is the one notable exception?",
+    "back": "NE on α and β receptors (α1 vasoconstriction, α2 presynaptic inhibition, β1 cardiac, β2 bronchodilation). Exception: sweat glands — anatomically sympathetic but use ACh on muscarinic receptors."
+  },
+  {
+    "id": "phy_card_062",
+    "front": "How does the adrenal medulla fit into autonomic anatomy, and what does it release?",
+    "back": "The adrenal medulla is a MODIFIED sympathetic ganglion — preganglionic fibers synapse directly on chromaffin cells (no second neuron). Chromaffin cells release epinephrine (~80%) and NE (~20%) into the bloodstream as hormones, not as synaptic NT."
+  },
+  {
+    "id": "phy_card_063",
+    "front": "How does acepromazine produce sedation and antiemesis?",
+    "back": "D2 dopamine receptor antagonist. Crosses BBB → blocks D2 in basal ganglia (sedation) and in the CRTZ (antiemetic). Also blocks α1 peripherally → vasodilation, hypotension. Avoid in shock/hypovolemia."
+  },
+  {
+    "id": "phy_card_064",
+    "front": "What's the key pharmacokinetic difference between metoclopramide and domperidone?",
+    "back": "Both are D2 antagonists used as prokinetics and antiemetics. Metoclopramide PARTIALLY crosses the BBB (some extrapyramidal/behavior side effects). Domperidone does NOT cross the BBB — peripheral D2 block only. Domperidone is also used to induce lactation (peripheral D2 block → ↑ prolactin)."
+  },
+  {
+    "id": "phy_card_065",
+    "front": "What is pergolide's mechanism, and what equine condition does it treat?",
+    "back": "Pergolide is a D2 dopamine AGONIST (the only agonist in the dopamine drug table; others are antagonists). Crosses BBB. Used for equine PPID (Cushing's): the pars intermedia loses normal dopaminergic inhibition from the hypothalamus; pergolide restores that inhibition and reduces ACTH."
+  },
+  {
+    "id": "phy_card_066",
+    "front": "In one sentence: what role does dopamine play in basal ganglia motor control?",
+    "back": "Dopamine (from substantia nigra) is the tuning knob between 'go' and 'stop' pathways — it activates 'go' and inhibits 'stop,' so the net effect is facilitation of smooth voluntary movement. Basal ganglia filter intent from the motor cortex."
+  },
+  {
+    "id": "phy_card_067",
+    "front": "How does tetanus toxin produce spastic paralysis?",
+    "back": "Tetanospasmin blocks glycine release from inhibitory interneurons (Renshaw cells) in the spinal cord and brainstem. Glycine normally inhibits LMNs to keep motor output in check. Without that inhibition, LMNs fire unopposed → sustained contraction → spastic paralysis (lockjaw, opisthotonus, saw-horse stance). Contrast with botulism (blocks ACh release at NMJ → flaccid paralysis)."
+  },
+  {
+    "id": "phy_card_068",
+    "front": "What are the two functions of a lower motor neuron?",
+    "back": "(1) Transmit voluntary commands from the brain (via the UMN) to the muscle. (2) Provide tonic, low-level baseline firing that maintains muscle tone and trophic support, and modulates spinal reflex arcs. Both are lost when the LMN dies — hence rapid neurogenic atrophy."
+  },
+  {
+    "id": "phy_card_069",
+    "front": "Beyond carrying voluntary commands, what is the UMN's main role?",
+    "back": "To INHIBIT and modulate the LMN — keeping reflexes in check, preventing them from firing too easily. Think of the UMN as largely a brake on the LMN, not just a wire. UMN lesion → loss of inhibition → spastic tone + hyperreflexia."
+  },
+  {
+    "id": "phy_card_070",
+    "front": "List the five classic signs of a UMN lesion.",
+    "back": "(1) Voluntary movement lost/weak (paresis-paralysis), (2) Increased tone — spastic, (3) Hyperreflexia, (4) No fasciculations (LMN still healthy), (5) Late, mild disuse-type atrophy. Mental image: control board still plugged in, no one upstairs at the controls."
+  },
+  {
+    "id": "phy_card_071",
+    "front": "List the five classic signs of an LMN lesion.",
+    "back": "(1) Flaccid paralysis, (2) Decreased/absent tone, (3) Hyporeflexia or areflexia (reflex arc broken), (4) Fasciculations (denervated fibers hypersensitive, dying axons fire), (5) Rapid neurogenic atrophy (~7–10 days, no trophic support). Mental image: muscle disconnected from nervous system, wasting fast."
+  },
+  {
+    "id": "phy_card_072",
+    "front": "How do UMN vs LMN signs in a limb tell you where the lesion is?",
+    "back": "UMN signs in a limb → lesion is ABOVE that limb's spinal segment (cortex down to just above the segment). LMN signs in a limb → lesion is AT that segment, in the ventral root, peripheral nerve, NMJ, or muscle."
+  },
+  {
+    "id": "phy_card_073",
+    "front": "A dog has LMN signs in the forelimbs and UMN signs in the hindlimbs. Where is the lesion?",
+    "back": "C6–T2 (cervical intumescence). The lesion is AT the segment supplying the forelimbs (LMN there) and ABOVE the lumbar segment supplying the hindlimbs (UMN there). Classic causes: cervical IVDD, fibrocartilaginous embolism (FCE)."
+  },
+  {
+    "id": "phy_card_074",
+    "front": "What is Schiff-Sherrington posture and what causes it?",
+    "back": "Acute T3–L3 spinal cord lesion → forelimb extensor RIGIDITY + flaccid hindlimbs. Despite forelimb extension, the underlying lesion is UMN-type. Caused by loss of tonic inhibition from 'border cells' (Cooper-Sherrington cells) in cranial lumbar cord (L1–L5) that normally inhibit forelimb extensor LMNs via the fasciculus proprius. NOT a poor prognostic sign itself — prognosis depends on hindlimb deep pain."
+  },
+  {
+    "id": "phy_card_075",
+    "front": "Which receptor is the autoantibody target in acquired myasthenia gravis (dog)?",
+    "back": "The NICOTINIC acetylcholine receptor on the motor end-plate of skeletal muscle. Antibodies block and downregulate these receptors → fewer end-plate potentials → exercise-induced weakness, megaesophagus. Dx: nicotinic AChR antibody titer. Tx: pyridostigmine (AChE inhibitor → more ACh outcompetes antibodies)."
+  },
+  {
+    "id": "phy_card_076",
+    "front": "Write the bicarbonate buffer equation and explain why pH depends on the ratio.",
+    "back": "CO₂ + H₂O ⇌ H₂CO₃ ⇌ H⁺ + HCO₃⁻. CO₂ behaves like an acid; HCO₃⁻ behaves like a base. pH = 6.1 + log([HCO₃⁻]/(0.03 × PaCO₂)) — it's the RATIO that matters, not the absolute amounts. The body can run on very different absolute levels of each as long as the ratio stays near 20:1."
+  },
+  {
+    "id": "phy_card_077",
+    "front": "Which organ controls CO₂, which controls HCO₃⁻, and how fast does each respond?",
+    "back": "Lungs control PaCO₂ — FAST (minutes); breathe more → blow off CO₂; breathe less → retain CO₂. Kidneys control HCO₃⁻ — SLOW (24–48 h fully); retain HCO₃⁻ or excrete H⁺ → ↑ HCO₃⁻, and vice versa."
+  },
+  {
+    "id": "phy_card_078",
+    "front": "How long does respiratory compensation take vs renal compensation?",
+    "back": "Respiratory compensation (for metabolic disturbance) = MINUTES. Renal compensation (for respiratory disturbance) = 24–48 hours to fully kick in. Why a chronic respiratory acidosis has near-normal pH (full renal compensation) but an acute one is markedly acidotic — same disturbance, very different lab picture by day."
+  },
+  {
+    "id": "phy_card_079",
+    "front": "Walk through the metabolic acidosis chain: primary change → compensation.",
+    "back": "HCO₃⁻ falls (primary) → pH falls → chemoreceptors sense acidosis → lungs hyperventilate (compensatory) → PaCO₂ falls → ratio restored → pH stabilizes (but never fully corrects — stays slightly acidotic). Kussmaul respiration in DKA is the textbook example."
+  },
+  {
+    "id": "phy_card_080",
+    "front": "Name three classic causes of metabolic alkalosis in veterinary patients.",
+    "back": "(1) Vomiting — loss of HCl from the stomach, relative gain of HCO₃⁻ (classic in GDV, pyloric outflow obstruction, persistent emesis). (2) Diuretic use (loop or thiazide). (3) Hyperaldosteronism. Vomiting/GDV is the dominant clinical scenario."
+  },
+  {
+    "id": "phy_card_081",
+    "front": "Give five categories of cause for respiratory acidosis.",
+    "back": "Anything that impairs ventilation: (1) Airway obstruction (FB, laryngeal paralysis, severe asthma). (2) Severe pulmonary disease (pneumonia, edema). (3) CNS depression (anesthetic overdose, opioids). (4) Neuromuscular disease of respiratory muscles (botulism, tick paralysis, severe myasthenia). (5) Chest wall problems (flail chest, pneumothorax)."
+  },
+  {
+    "id": "phy_card_082",
+    "front": "Give five common causes of respiratory alkalosis.",
+    "back": "(1) Pain/anxiety/fever (hyperventilation reflex). (2) Sepsis (early). (3) Pulmonary embolism (V/Q mismatch with reflex tachypnea). (4) High altitude / hypoxia. (5) Salicylate toxicity (early) — directly stimulates the medullary respiratory center. Also: liver failure, mechanical overventilation under anesthesia."
+  },
+  {
+    "id": "phy_card_083",
+    "front": "Does compensation ever fully restore a normal pH?",
+    "back": "No — compensation moves pH toward normal but never fully corrects it. pH stays slightly to the side of the primary disturbance. Practical use: if pH is 'too normal' despite abnormal HCO₃⁻/PaCO₂, suspect a mixed disorder; if pH crosses to the wrong side of 7.40, another primary process has overshot."
+  },
+  {
+    "id": "phy_card_084",
+    "front": "What is the anion gap, and what's the normal range?",
+    "back": "AG = Na⁺ − (Cl⁻ + HCO₃⁻). Normal ~12–24 mEq/L in dogs (lower in cats, ~13–27). It estimates 'unmeasured anions' (proteins, phosphate, sulfate, lactate, ketones). Used to subdivide metabolic acidosis into high-AG (acid added) vs normal-AG (HCO₃⁻ lost)."
+  },
+  {
+    "id": "phy_card_085",
+    "front": "Why does adding an organic acid (like lactate) cause a HIGH anion gap?",
+    "back": "Acid added means H⁺ consumes HCO₃⁻ (HCO₃⁻ falls), but the acid's anion (lactate, β-hydroxybutyrate, glycolate, salicylate, etc.) sticks around as an unmeasured anion. HCO₃⁻ ↓ + unmeasured anions ↑ → calculated AG rises. This is the MUDPILES bucket."
+  },
+  {
+    "id": "phy_card_086",
+    "front": "Why does losing bicarbonate directly (e.g., diarrhea) cause a NORMAL anion gap acidosis?",
+    "back": "HCO₃⁻ falls, but the body retains Cl⁻ to maintain electroneutrality. So HCO₃⁻ ↓ and Cl⁻ ↑ — calculated AG stays the same. This is the HARDUPS bucket (hyperchloremic metabolic acidosis): diarrhea, RTA, pancreatic fistula, Addison's, etc."
+  },
+  {
+    "id": "phy_card_087",
+    "front": "Recite the MUDPILES differentials for high anion gap metabolic acidosis.",
+    "back": "M-Methanol (rare in vet), U-Uremia (CKD), D-DKA, P-Propylene glycol, I-Iron/Isoniazid, L-Lactic acidosis (sepsis, GDV, hypoperfusion — most common in vet), E-Ethylene glycol (antifreeze), S-Salicylates."
+  },
+  {
+    "id": "phy_card_088",
+    "front": "How do you distinguish the primary disturbance from compensatory change on a blood gas?",
+    "back": "Look at pH direction: low pH = primary acidosis; high pH = primary alkalosis. Then check HCO₃⁻ and PaCO₂: the one whose change WOULD produce the observed pH shift is the primary; the other is compensatory. Example: pH ↓, HCO₃⁻ ↓, PaCO₂ ↓ → low HCO₃⁻ is acidotic primary, low PaCO₂ is respiratory compensation."
+  },
+  {
+    "id": "phy_card_089",
+    "front": "When should you suspect a mixed acid-base disturbance?",
+    "back": "(1) pH is 'too normal' despite abnormal HCO₃⁻ and PaCO₂ — compensation never fully corrects, so a normal pH with abnormal values suggests two opposing primary disorders. (2) Compensation moves the wrong way. (3) Compensation overshoots predicted range. Classic mixed scenario: GDV (lactate-driven metabolic acidosis + pain-driven respiratory alkalosis)."
+  }
+]

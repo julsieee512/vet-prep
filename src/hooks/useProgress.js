@@ -21,14 +21,24 @@ export function useProgress() {
     setProgress(prev => {
       const updated = { ...prev };
       if (!updated.quiz) updated.quiz = {};
-      if (!updated.quiz[subject]) updated.quiz[subject] = { correct: 0, total: 0, history: [] };
-      updated.quiz[subject].total += 1;
-      if (correct) updated.quiz[subject].correct += 1;
+      if (!updated.quiz[subject]) updated.quiz[subject] = { history: [] };
+      if (!updated.quiz[subject].history) updated.quiz[subject].history = [];
       updated.quiz[subject].history.push({ questionId, correct, date: new Date().toISOString() });
       save(updated);
       return updated;
     });
   }, []);
+
+  const computeStats = (subjectData) => {
+    if (!subjectData?.history?.length) return { correct: 0, total: 0 };
+    const latest = new Map();
+    for (const entry of subjectData.history) {
+      latest.set(entry.questionId, entry.correct);
+    }
+    let correct = 0;
+    for (const c of latest.values()) if (c) correct += 1;
+    return { correct, total: latest.size };
+  };
 
   const recordFlashcard = useCallback((cardId, sm2Result) => {
     setProgress(prev => {
@@ -51,23 +61,22 @@ export function useProgress() {
   }, []);
 
   const getSubjectStats = useCallback((subject) => {
-    const q = progress.quiz?.[subject];
-    if (!q || q.total === 0) return null;
-    return {
-      correct: q.correct,
-      total: q.total,
-      pct: Math.round((q.correct / q.total) * 100),
-    };
+    const { correct, total } = computeStats(progress.quiz?.[subject]);
+    if (total === 0) return null;
+    return { correct, total, pct: Math.round((correct / total) * 100) };
   }, [progress]);
 
   const getAllStats = useCallback(() => {
     const quiz = progress.quiz || {};
-    return Object.entries(quiz).map(([subject, data]) => ({
-      subject,
-      correct: data.correct,
-      total: data.total,
-      pct: data.total > 0 ? Math.round((data.correct / data.total) * 100) : 0,
-    })).sort((a, b) => a.pct - b.pct);
+    return Object.entries(quiz).map(([subject, data]) => {
+      const { correct, total } = computeStats(data);
+      return {
+        subject,
+        correct,
+        total,
+        pct: total > 0 ? Math.round((correct / total) * 100) : 0,
+      };
+    }).filter(s => s.total > 0).sort((a, b) => a.pct - b.pct);
   }, [progress]);
 
   return { progress, recordQuizAnswer, recordFlashcard, recordCaseComplete, getSubjectStats, getAllStats };
