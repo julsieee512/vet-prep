@@ -95,3 +95,54 @@
 .doneSub { color: #888; font-size: 0.88rem; }
 .btn { background: #1a2e4a; color: #fff; border: none; border-radius: 8px; padding: 10px 24px; cursor: pointer; font-size: 0.9rem; margin-top: 12px; }
 .btn:hover { background: #2d4a6e; }
+
+@media (max-width: 768px) {
+  .title { font-size: 1.5rem; }
+  .sub { font-size: 0.88rem; margin-bottom: 16px; }
+  .grid {
+    grid-template-columns: repeat(auto-fill, minmax(140px, 1fr));
+    gap: 10px;
+  }
+  .subjectCard { padding: 14px; font-size: 0.85rem; }
+  .meta { font-size: 0.82rem; margin-bottom: 14px; }
+  .card {
+    min-height: 280px;
+    border-radius: 14px;
+    margin-bottom: 18px;
+  }
+  .cardInner { min-height: 280px; }
+  .front, .back {
+    min-height: 280px;
+    padding: 20px 16px;
+  }
+  .cardText {
+    font-size: 1rem;
+    line-height: 1.5;
+  }
+  .cardImage {
+    max-height: 160px;
+    margin-bottom: 10px;
+  }
+  .hint {
+    font-size: 0.7rem;
+    top: 10px;
+    right: 12px;
+  }
+  .ratingRow {
+    padding: 14px;
+    border-radius: 10px;
+  }
+  .ratingLabel { font-size: 0.82rem; margin-bottom: 10px; }
+  .ratings { gap: 6px; }
+  .ratingBtn {
+    min-width: 0;
+    padding: 10px 4px;
+    font-size: 0.74rem;
+  }
+  .done { padding: 40px 20px; }
+  .btn {
+    width: 100%;
+    padding: 12px;
+    font-size: 0.95rem;
+  }
+}

@@ -173,3 +173,72 @@
 .markdown h3.core, .markdown h4.core { color: #8b1a1a; border-bottom: 2px solid #f5a3a3; }
 .markdown h3.important, .markdown h4.important { color: #7a5a0a; border-bottom: 2px solid #f0c44a; }
 .markdown h3.detail, .markdown h4.detail { color: #2d5a2d; }
+
+@media (max-width: 768px) {
+  .layout {
+    flex-direction: column;
+    gap: 12px;
+  }
+  .sidebar {
+    width: 100%;
+    display: flex;
+    gap: 6px;
+    overflow-x: auto;
+    -webkit-overflow-scrolling: touch;
+    padding-bottom: 4px;
+  }
+  .sidebarTitle {
+    display: none;
+  }
+  .subjectBtn {
+    flex: 0 0 auto;
+    width: auto;
+    padding: 7px 12px;
+    font-size: 0.82rem;
+    background: #fff;
+    border: 1px solid #e8eef4;
+    margin-bottom: 0;
+    white-space: nowrap;
+  }
+  .markdown {
+    padding: 16px;
+    font-size: 0.95rem;
+  }
+  .markdown h1 { font-size: 1.3rem; }
+  .markdown h2 { font-size: 1.1rem; margin-top: 20px; }
+  .markdown h3 { font-size: 0.98rem; }
+  .markdown table {
+    display: block;
+    overflow-x: auto;
+    -webkit-overflow-scrolling: touch;
+    font-size: 0.8rem;
+    white-space: nowrap;
+  }
+  .markdown th, .markdown td {
+    padding: 6px 8px;
+  }
+  .markdown pre {
+    padding: 12px;
+    font-size: 0.8rem;
+  }
+  .chapterTabs {
+    padding: 8px 10px;
+    gap: 4px;
+    overflow-x: auto;
+    flex-wrap: nowrap;
+    -webkit-overflow-scrolling: touch;
+  }
+  .chapterTab {
+    flex: 0 0 auto;
+    padding: 6px 10px;
+    font-size: 0.78rem;
+  }
+  .filterBar {
+    padding: 8px 10px;
+    flex-wrap: wrap;
+  }
+  .filterBtn {
+    padding: 5px 10px;
+    font-size: 0.78rem;
+  }
+}

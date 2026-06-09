@@ -129,3 +129,49 @@
 .done h2 { color: #1a2e4a; margin-bottom: 12px; }
 .score { font-size: 1.8rem; font-weight: 700; color: #1a2e4a; }
 .scorePct { font-size: 3rem; font-weight: 700; color: #2ecc71; margin: 8px 0 24px; }
+
+@media (max-width: 768px) {
+  .title { font-size: 1.5rem; }
+  .sub { font-size: 0.88rem; margin-bottom: 16px; }
+  .grid {
+    grid-template-columns: repeat(auto-fill, minmax(140px, 1fr));
+    gap: 10px;
+  }
+  .subjectCard { padding: 14px; }
+  .header {
+    flex-wrap: wrap;
+    gap: 8px;
+    margin-bottom: 14px;
+  }
+  .sessionScore {
+    margin-left: 0;
+    width: 100%;
+    order: 3;
+  }
+  .card {
+    padding: 16px;
+    border-radius: 12px;
+  }
+  .question { font-size: 1rem; margin-bottom: 18px; }
+  .option {
+    padding: 12px;
+    font-size: 0.9rem;
+    gap: 10px;
+  }
+  .options { gap: 8px; }
+  .explanation {
+    padding: 14px;
+    font-size: 0.88rem;
+  }
+  .explanation p { font-size: 0.9rem; }
+  .questionImage { max-height: 200px; }
+  .btn {
+    width: 100%;
+    margin-right: 0;
+    margin-top: 10px;
+    padding: 12px;
+    font-size: 0.95rem;
+  }
+  .done { padding: 40px 16px; }
+  .scorePct { font-size: 2.4rem; }
+}
